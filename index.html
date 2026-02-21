@@ -3,271 +3,112 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>医療特化SNSマーケティング | クリニック集客支援</title>
-  <meta name="description" content="医療業界に特化したSNSマーケティング支援。戦略設計から運用代行、動画強化までクリニックの問い合わせ・予約増をサポートします。" />
+  <title>医療特化SNSマーケティング | ホーム</title>
+  <meta name="description" content="医療機関向けSNSマーケティング支援。戦略設計、運用代行、動画強化、品質管理まで対応。" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
 </head>
 <body>
-  <header class="hero">
-    <div class="hero__inner">
-      <nav class="top-nav">
-        <p class="brand">Medical SNS Consulting</p>
-        <a class="mini-cta" href="#contact">無料相談</a>
+  <header class="topbar">
+    <div class="topbar__inner">
+      <p class="brand">Medical SNS Consulting</p>
+      <button class="menu-toggle" data-menu-toggle>メニュー</button>
+      <nav class="topnav">
+        <a href="index.html" data-nav>ホーム</a>
+        <a href="services.html" data-nav>サービス</a>
+        <a href="pricing.html" data-nav>料金</a>
+        <a href="cases.html" data-nav>事例</a>
+        <a href="contact.html" data-nav>お問い合わせ</a>
       </nav>
-
-      <p class="tag">医療機関専用 SNSマーケティング支援</p>
-      <h1>医療業界に特化した運用で、<br />問い合わせと予約導線を改善。</h1>
-      <p class="lead">クリニック・歯科・美容医療の運用実務を理解したチームが、戦略設計から実行・改善までを担当。<br />成果指標を明確化し、毎月の改善を可視化します。</p>
-
-      <div class="hero__actions">
-        <a class="cta" href="#pricing">料金プランを見る</a>
-        <a class="ghost-cta" href="#trust">選ばれる理由を見る</a>
-      </div>
-
-      <div class="hero-metrics">
-        <article>
-          <p class="metric-num">24h以内</p>
-          <p class="metric-label">原則返信</p>
-        </article>
-        <article>
-          <p class="metric-num">月次</p>
-          <p class="metric-label">KPIレポート提出</p>
-        </article>
-        <article>
-          <p class="metric-num">週次</p>
-          <p class="metric-label">改善アクション整理</p>
-        </article>
-      </div>
+      <a class="topbar__cta" href="contact.html">無料相談</a>
     </div>
   </header>
 
-  <main>
-    <section class="section" id="trust">
-      <div class="section__head">
-        <p class="eyebrow">Trust</p>
-        <h2>信頼される3つの理由</h2>
-      </div>
-      <div class="trust-grid">
-        <article class="trust-card">
-          <h3>1. 医療業界に合わせた導線設計</h3>
-          <p>一般商材とは異なる「予約・来院・面談」導線を前提にKPIを設計。現場オペレーションに無理のない運用を組みます。</p>
-        </article>
-        <article class="trust-card">
-          <h3>2. レポートで成果を可視化</h3>
-          <p>投稿数だけでなく、導線クリック数・問い合わせ数・商談化率までを毎月レポート化。改善点を具体化します。</p>
-        </article>
-        <article class="trust-card">
-          <h3>3. 継続改善の運用体制</h3>
-          <p>月次MTGと週次チェックで、企画・制作・導線の優先度を調整。単発施策ではなく再現性ある改善を実行します。</p>
-        </article>
-      </div>
-    </section>
+  <div class="layout">
+    <aside class="sidebar">
+      <p class="side-title">Menu</p>
+      <nav class="sidenav">
+        <a href="index.html" data-nav>ホーム</a>
+        <a href="services.html" data-nav>サービス詳細</a>
+        <a href="pricing.html" data-nav>料金プラン</a>
+        <a href="process.html" data-nav>導入フロー</a>
+        <a href="cases.html" data-nav>支援事例</a>
+        <a href="faq.html" data-nav>よくある質問</a>
+        <a href="company.html" data-nav>会社情報</a>
+        <a href="contact.html" data-nav>お問い合わせ</a>
+      </nav>
+      <p class="sidebar-note">医療領域の運用は、成果と同時に表現リスク管理が重要です。運用体制と確認フローを可視化してご支援します。</p>
+    </aside>
 
-    <section class="section section--alt" id="services">
-      <div class="section__head">
-        <p class="eyebrow">Service</p>
-        <h2>提供メニュー</h2>
-      </div>
-      <div class="service-grid">
-        <article class="service-card">
-          <h3>Strategy（内製化コンサル）</h3>
-          <p>戦略/KPI/導線設計、企画、月次MTG、月次レポートまでを設計。院内で回せる体制を構築します。</p>
-        </article>
-        <article class="service-card">
-          <h3>Operate（運用代行）</h3>
-          <p>投稿運用と改善を代行。フィードとリールを組み合わせて継続的に問い合わせ導線を最適化します。</p>
-        </article>
-        <article class="service-card">
-          <h3>Produce（動画強化）</h3>
-          <p>IG+TikTokを軸にショート動画を強化。撮影設計から週次改善まで高速でPDCAを回します。</p>
-        </article>
-      </div>
-    </section>
+    <main class="content">
+      <section class="hero-card">
+        <p class="eyebrow">Medical Focused SNS</p>
+        <h1>医療機関に必要な<br />信頼導線を、SNSで設計する。</h1>
+        <p class="hero-lead">クリニック・歯科・美容医療向けに、戦略設計から運用実行、月次改善までを一貫支援。問い合わせ数だけでなく、予約・面談・来院まで追える運用を構築します。</p>
+        <div class="btn-row">
+          <a class="btn" href="pricing.html">料金を確認する</a>
+          <a class="btn-ghost" href="cases.html">支援事例を見る</a>
+        </div>
+      </section>
 
-    <section class="section" id="flow">
-      <div class="section__head">
-        <p class="eyebrow">Flow</p>
-        <h2>導入から運用改善までの流れ</h2>
-      </div>
-      <div class="flow-grid">
-        <article class="flow-step">
-          <p class="step">Step 1</p>
-          <h3>現状診断</h3>
-          <p>SNSアカウント、導線、問い合わせ対応の現状を整理します。</p>
+      <section class="grid-4">
+        <article class="metric-card">
+          <p class="metric-title">レポーティング</p>
+          <p class="metric-value">月次提出</p>
         </article>
-        <article class="flow-step">
-          <p class="step">Step 2</p>
-          <h3>KPIと施策設計</h3>
-          <p>月間目標と運用体制を定義し、優先施策をロードマップ化します。</p>
+        <article class="metric-card">
+          <p class="metric-title">改善レビュー</p>
+          <p class="metric-value">週次整理</p>
         </article>
-        <article class="flow-step">
-          <p class="step">Step 3</p>
-          <h3>運用開始</h3>
-          <p>投稿・動画・導線改善を進行し、月次で数値レビューを行います。</p>
+        <article class="metric-card">
+          <p class="metric-title">連絡対応</p>
+          <p class="metric-value">24h以内</p>
         </article>
-        <article class="flow-step">
-          <p class="step">Step 4</p>
-          <h3>継続改善</h3>
-          <p>反応の高い企画に寄せて改善。費用対効果を見ながら最適化します。</p>
+        <article class="metric-card">
+          <p class="metric-title">対象領域</p>
+          <p class="metric-value">医療特化</p>
         </article>
-      </div>
-    </section>
+      </section>
 
-    <section class="section section--alt" id="pricing">
-      <div class="section__head">
-        <p class="eyebrow">Pricing</p>
-        <h2>料金プラン</h2>
-      </div>
-      <div class="pricing-grid">
-        <article class="price-card">
-          <p class="category">SNSマーケ</p>
-          <h3>Strategy</h3>
-          <p class="price">¥98,000<span>/月</span></p>
-          <ul>
-            <li>戦略/KPI/導線設計</li>
-            <li>企画設計</li>
-            <li>月次MTG</li>
-            <li>月次レポート</li>
-          </ul>
-          <p class="kpi">主要KPI: 商談数 / 問い合わせ数</p>
-        </article>
+      <section class="panel">
+        <p class="eyebrow">Why Us</p>
+        <h2>信頼を得るための運用設計</h2>
+        <div class="grid-3">
+          <article class="info-card">
+            <h3>導線設計の明確化</h3>
+            <p>フォロワー数ではなく、導線クリック、問い合わせ、予約率を起点にKPI設計します。</p>
+          </article>
+          <article class="info-card">
+            <h3>品質管理の定常化</h3>
+            <p>投稿前チェックリストで、誤記・表現リスク・リンク不備を抑制します。</p>
+          </article>
+          <article class="info-card">
+            <h3>改善根拠の可視化</h3>
+            <p>月次レポートで成果と課題を明文化し、翌月の改善計画まで提示します。</p>
+          </article>
+        </div>
+      </section>
 
-        <article class="price-card price-card--featured">
-          <p class="category">SNSマーケ</p>
-          <h3>Operate</h3>
-          <p class="price">¥198,000<span>/月</span></p>
-          <ul>
-            <li>月12投稿（フィード/リール混在）</li>
-            <li>リール 月4本</li>
-            <li>月次改善</li>
-          </ul>
-          <p class="kpi">主要KPI: 導線クリック / 問い合わせ</p>
-        </article>
-
-        <article class="price-card">
-          <p class="category">SNSマーケ</p>
-          <h3>Produce</h3>
-          <p class="price">¥348,000<span>/月</span></p>
-          <ul>
-            <li>IG + TikTok運用</li>
-            <li>月16〜20投稿</li>
-            <li>ショート 月8〜12本</li>
-            <li>撮影設計・週次改善</li>
-          </ul>
-          <p class="kpi">主要KPI: 問い合わせ / 予約増</p>
-        </article>
-      </div>
-      <p class="pricing-note">※ 契約期間・業務範囲に応じて個別見積もり可能です。</p>
-    </section>
-
-    <section class="section" id="options">
-      <div class="section__head">
-        <p class="eyebrow">Options</p>
-        <h2>オプション</h2>
-      </div>
-      <div class="table-wrap">
-        <table>
-          <thead>
-            <tr>
-              <th>項目</th>
-              <th>料金目安</th>
-              <th>内容</th>
-              <th>KPI</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>DM一次対応</td>
-              <td>+¥50,000〜</td>
-              <td>DM一次対応（上限件数設定）</td>
-              <td>返信率 / 商談化</td>
-            </tr>
-            <tr>
-              <td>院内撮影</td>
-              <td>¥50,000/回〜</td>
-              <td>院内撮影（まとめ撮り）</td>
-              <td>制作効率 / 品質</td>
-            </tr>
-            <tr>
-              <td>求人LP/募集要項改善</td>
-              <td>+¥80,000〜</td>
-              <td>求人LP・募集要項の改善</td>
-              <td>応募数 / 面談数</td>
-            </tr>
-            <tr>
-              <td>広告運用</td>
-              <td>+¥80,000〜</td>
-              <td>広告運用（＋広告費）</td>
-              <td>CPA / 問い合わせ</td>
-            </tr>
-            <tr>
-              <td>MEO設計</td>
-              <td>+¥50,000〜</td>
-              <td>Googleビジネスプロフィール連携/設計</td>
-              <td>来院 / 電話</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </section>
-
-    <section class="section" id="quality">
-      <div class="section__head">
-        <p class="eyebrow">Quality</p>
-        <h2>品質管理・運用ポリシー</h2>
-      </div>
-      <div class="policy-grid">
-        <article>
-          <h3>公開前チェック</h3>
-          <p>誤字脱字、表現リスク、導線リンクを公開前に確認してから投稿します。</p>
-        </article>
-        <article>
-          <h3>医療業界への配慮</h3>
-          <p>広告表現・訴求の安全性に配慮し、過度な表現や誤認リスクを避けた制作を行います。</p>
-        </article>
-        <article>
-          <h3>改善レビュー</h3>
-          <p>数値レポートに基づき、翌月の投稿方針・動画テーマ・導線を更新します。</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="section section--alt" id="faq">
-      <div class="section__head">
-        <p class="eyebrow">FAQ</p>
-        <h2>よくある質問</h2>
-      </div>
-      <div class="faq-list">
-        <article>
-          <h3>最短でいつから開始できますか？</h3>
-          <p>ヒアリング後、通常2週間程度で初月運用を開始できます。</p>
-        </article>
-        <article>
-          <h3>SNS運用が初めてでも依頼できますか？</h3>
-          <p>可能です。アカウント設計、運用ルール整備、社内連携までサポートします。</p>
-        </article>
-        <article>
-          <h3>レポートはどこまで見えますか？</h3>
-          <p>投稿実績、導線クリック、問い合わせ推移、次月改善アクションまで共有します。</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="section section--cta" id="contact">
-      <h2>現状を整理して、最適な運用プランをご提案します</h2>
-      <p>初回相談では現状診断と、3か月の優先改善アクションをご提示します。</p>
-      <div class="contact-actions">
-        <a class="cta" href="mailto:contact@example.com">無料相談を予約する</a>
-        <a class="ghost-cta" href="#pricing">料金を再確認する</a>
-      </div>
-    </section>
-  </main>
+      <section class="panel">
+        <p class="eyebrow">Coverage</p>
+        <h2>このサイトで確認できる内容</h2>
+        <ul class="check-list">
+          <li>サービス範囲、プラン別の実行内容、オプション費用</li>
+          <li>導入から運用までの実務フローと体制</li>
+          <li>匿名化した支援事例と改善ポイント</li>
+          <li>品質管理、セキュリティ、コミュニケーションルール</li>
+          <li>契約前に確認される質問への回答</li>
+        </ul>
+        <span class="status-pill">更新: 2026年2月時点の運用内容</span>
+      </section>
+    </main>
+  </div>
 
   <footer>
-    <p>© 2026 Medical SNS Consulting</p>
+    <p>© 2026 Medical SNS Consulting | 医療機関向けSNSマーケティング支援</p>
   </footer>
 </body>
 </html>
